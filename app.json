@@ -22,7 +22,7 @@
         "LOG_GROUP_ID": {
             "description": "Buat Grup Pribadi Dan Tambahkan Bot Rose & Bot Musik Anda Sebagai Admin Lalu Ketikan /id",
             "required": true,
-            "value": "1002109090221"
+            "value": "-1002109090221"
         },
         "API_ID": {
             "description": "Dapatkan API ID di web » my.telegram.org",
