@@ -39,12 +39,12 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{GROUP}"),
-            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{CHANNEL}"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/musicsupportdan"),
+            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://Disney_storeDan"),
         ],
         [
-            InlineKeyboardButton("📚 ᴘᴇʀɪɴᴛᴀʜ​ 📚", url="https://t.me/ruangprojects/47"),
-            InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ ♨️", url="https://github.com/PunyaAlby/ALBYMusic"),
+            InlineKeyboardButton("📚 ᴅᴇᴠᴇʟᴏᴘᴇʀ​ 📚", url="https://t.me/mhmdwldnnnn"),
+            InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ ♨️", url="https://xnxx.com/"),
         ],
     ]
     return (
@@ -60,12 +60,12 @@ pstart_markup = InlineKeyboardMarkup(
                 "➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{GROUP}"),
-            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{CHANNEL}"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/musicsupportdan"),
+            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=f"https://Disney_storeDan"),
         ],
         [
-            InlineKeyboardButton("📚 ᴘᴇʀɪɴᴛᴀʜ 📚", url="https://t.me/ruangprojects/47"),
-            InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ ♨️", url="https://github.com/PunyaAlby/ALBYMusic"),
+            InlineKeyboardButton("📚 ᴅᴇᴠᴇʟᴏᴘᴇʀ 📚", url="https://t.me/mhmdwldnnnn"),
+            InlineKeyboardButton("♨️ sᴏᴜʀᴄᴇ ♨️", url="https://xnxx.com/"),
         ],
     ]
 )
@@ -134,7 +134,7 @@ async def play(_, message: Message):
         await app.send_message(
             message.chat.id,
             text=f"""
-**✨ Selamat Datang {rpk}!
+**✨ Selamat Datang {ya}!
 
 💬 [{BOT_NAME}](tg://user?id=2129034376) memungkinkan anda untuk memutar musik pada grup melalui obrolan suara yang baru di Telegram!
 
@@ -465,7 +465,7 @@ async def start_markup_check(_, CallbackQuery):
         await CallbackQuery.edit_message_text(
             text=f"{text}\n\n**Group:** {c_title}\n**Group ID:** {c_id}\n**Volume Level:** {volume}%\n**Audio Quality:** Default Best",
             reply_markup=InlineKeyboardMarkup(buttons),
-        )
+        ) 
     if command == "MTF":
         _check = await get_assistant(c_id, "assistant")
         volume = _check["volume"]
