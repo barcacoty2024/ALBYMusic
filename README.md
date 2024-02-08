@@ -1,4 +1,4 @@
-<h2 align="centre">ALBY Music</h2>
+<h2 align="centre">DAN Music</h2>
 
 <p align="center">
   <img src="https://telegra.ph/file/9ed97ffd72880f017b0df.jpg">
@@ -34,7 +34,7 @@
 
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 <p align="center">
-<a href="https://dashboard.heroku.com/new?template=https://github.com/PunyaAlby/ALBYMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
+<a href="https://dashboard.heroku.com/new?template=https://github.com/barcacoty2024/ALBYMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  
 <a href="https://telegram.dog/XTZ_HerokuBot?start=UHVueWFBbGJ5L0FMQllNdXNpYyBtYXN0ZXI"><img src="https://img.shields.io/badge/Deploy%20Via%20Telegram-blue?style=for-the-badge&logo=telegram" width="250""/</a>  </p>
 
 #### Deploy in your VPS
@@ -51,7 +51,7 @@ cp sample.env .env
 python3 -m Music
 ````
 ### Support & Updates 
-<a href="https://t.me/ruangdiskusikami"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/ruangprojects"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/musicsupport_dan"><img src="https://img.shields.io/badge/Join-Group%20Support-red.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/musicsupportdan"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 
 ## Credits
